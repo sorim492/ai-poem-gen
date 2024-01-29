@@ -56,6 +56,10 @@ footer{
     border-left: 3px solid  #885df1;
 }
 
+.poem strong{
+    color: #885df1;
+}
+
 .submit-button{
     margin-left: 10px;
     background-color: #885df1;
