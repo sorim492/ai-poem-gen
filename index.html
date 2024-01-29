@@ -12,14 +12,12 @@
         <h1>Welcome to AI Poem Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-gen-form">
             <input type="text" name="" id="" placeholder="Enter the topic of the poem" required autocomplete="off" class="instruction"/>
-            <input type="submit" class="submit-button"/>
+            <input type="submit" value="send" class="submit-button"/>
         </form>    
-        <div class="poem">
-            the poem will go here
-            <br/>
-            the poem go here
+        <div class="poem" id="poem">
+            
         </div>
     </main>
     <footer>
@@ -28,5 +26,6 @@
     </footer>
     </div>
     <script src="src/index.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </body>
 </html>
